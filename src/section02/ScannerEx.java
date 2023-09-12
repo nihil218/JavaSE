@@ -22,8 +22,8 @@ public class ScannerEx {
 		
 		name = scanner.next();
 		address = scanner.next();
-		age = scanner.next();
-		weight = scanner.next();
+		age = scanner.nextInt();
+		weight = scanner.nextDouble();
 		
 		/*
 		 * 알트 + 컨트롤 + 방향키 줄복사 단축키
